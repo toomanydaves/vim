@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/users/seanjacke/Sites/learnship/sean/images'
+let g:netrw_dirhist_2='/users/seanjacke/Sites/learnship/sean/images/nav'
+let g:netrw_dirhist_3='/users/seanjacke/Sites/learnship/sean/images'
+let g:netrw_dirhist_4='/users/seanjacke/Sites/learnship/sean'
+let g:netrw_dirhist_5='/users/seanjacke/Sites/learnship/sd2645/apps/backend/templates'
+let g:netrw_dirhist_6='/users/seanjacke/Sites/learnship/sean/js'
+let g:netrw_dirhist_7='/users/seanjacke/Sites/toomanydaves/public/js'
+let g:netrw_dirhist_8='/users/seanjacke/Sites/toomanydaves/public/js/plugins'
