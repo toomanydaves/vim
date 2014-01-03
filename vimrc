@@ -24,13 +24,18 @@ set expandtab
 " wrap text and automatically break lines
 set wrap linebreak
 set formatoptions=qrn1
-" highlight the eighty first column...
+" highlight the 121st first column...
 set cc=121
 " ...in a dark grey
 highlight ColorColumn ctermbg=0
 " use a dark grey background for search and visual highlight
 highlight visual ctermbg=0
 highlight search ctermbg=0
+" change the diff highlighting
+highlight DiffAdd    cterm=bold ctermfg=0  ctermbg=2
+highlight DiffDelete cterm=bold ctermfg=0  ctermbg=9
+highlight DiffChange cterm=bold ctermfg=0  ctermbg=11
+highlight DiffText   cterm=bold ctermfg=0  ctermbg=5
 " show line numbers
 set nu
 
@@ -58,3 +63,6 @@ vnoremap <tab> %
 inoremap jj <ESC>
 " use ,n to split window vertically and shift focus to new window
 nnoremap <leader>n :vsp<CR><c-w>l
+
+" use html syntax highlighting for .twig files
+au BufRead,BufNewFile *.twig set filetype=html

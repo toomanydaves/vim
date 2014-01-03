@@ -72,3 +72,33 @@ snippet get
 # Get Element
 snippet gett
 	getElementBy${1:Id}('${2}')${3}
+# Defining a new module
+snippet def
+	define(
+		[
+			${1}
+		],
+		function (
+			${2}
+		) {
+			return ${3}.extend(
+				{
+					${4}
+				}
+			);
+		}
+	);
+snippet meth
+	${1}
+		${2}
+		@method ${3}
+	*/
+	$3: function (${4}) {
+		${5}
+	}
+snippet prop
+	${1}
+		${2}
+		@property ${3}
+	*/
+	$3: {$4}
