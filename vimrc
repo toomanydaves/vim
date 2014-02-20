@@ -4,6 +4,8 @@ set clipboard=unnamed
 set nocompatible
 " load plugins and local settings particular to filetype
 
+color desert
+
 " enable syntax highlighting
 syntax on
 " enable filetype plugins
